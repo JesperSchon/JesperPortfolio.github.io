@@ -143,34 +143,45 @@ hr {
     box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5)
 }
 /*PORTFOLIO PAGE*/
+.container-portfolio{
+    padding: 20px 6%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.left-sidebar-port{
+    flex-basis: 25%;
+    align-self: flex-start;
+}
+.sidebar-box ul li{
+    padding: 150px;
+    font-size: 20px;
+}
+.sidebar-box a{
+    font-size: 15px;
+    color: #045be6;
+}
 .projects-to-display  {
     font-style: oblique;
     display: table;
-    margin: auto;
-    text-align: center;
+    margin-right: 600px;
+    
 }
-.projects-to-display ul li{
-    list-style-type: none;
+.projects-to-display img{
+    width: 500px;
+    
 }
-
 .puzzle-img img{
-    width: 300px;
-    margin-bottom: 20px;
+    width: 400px;
+    margin-bottom: 170px;
+    margin-top: 40px;
 }
-
-
 .website-img img{
-    width: 700px;
-    margin-bottom: 20px;
+    width: 500px;
+    margin-bottom: 278px;
 }
 
-.gym-img img{
-    width: 800px;
-    margin-bottom: 20px;
-}
-.projects-to-display a{
-        color: #045be6;
-}
+
 
 /*Contact Info*/
 
